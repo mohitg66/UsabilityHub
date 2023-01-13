@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+      .text-shadow {
+        text-shadow: 0px 0px 4px black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="flex justify-between items-center px-[8%] py-6">
+      <section class="flex justify-start items-center gap-4">
+        <a href="#">
+          <img
+            src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5dc9062fc19d430f6909ced7_UHLogo_standard.png"
+            alt="logo"
+            class="max-h-10"
+          />
+        </a>
+
+        <a href="#" class="hidden bg-slate-200 rounded px-2 py-1 text-center xl:block">
+          Become a tester
+        </a>
+      </section>
+
+      <nav class="hidden xl:flex xl:gap-6 xl:items-center">
+        <a href="#" class="hover:text-blue-500"> Product </a>
+
+        <a href="#" class="hover:text-blue-500"> Customers </a>
+
+        <a href="#" class="hover:text-blue-500"> Pricing </a>
+
+        <a href="#" class="hover:text-blue-500"> Resources </a>
+
+        <button
+          class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-6 py-3 hover:border-blue-500 hover:text-blue-500"
+        >
+          Sign in
+        </button>
+
+        <button
+          class="appearance-none bg-blue-500 text-white font-semibold border border-slate-300 rounded px-6 py-3 shadow hover:bg-blue-700"
+        >
+          Sign Up
+        </button>
+      </nav>
+
+      <nav class="xl:hidden">
+        <a href="#">
+          <div class="p-0 h-5 w-7 flex flex-col justify-between">
+            <div class="border-t-4 border-t-slate-600 rounded"></div>
+            <div class="border-t-4 border-t-slate-600 rounded"></div>
+            <div class="border-t-4 border-t-slate-600 rounded"></div>
+          </div>
+        </a>
+      </nav>
+    </header>
+
+    <main class="w-5/6 mx-auto">
+      <div
+        class="flex flex-col-reverse justify-between items-center my-8 gap-24 lg:flex-row lg:text-left"
+      >
+        <section
+          class="flex flex-col justify-start items-center gap-8 text-center lg:content-start lg:items-start lg:text-left"
+        >
+          <h2 class="text-5xl text-slate-700 font-semibold">
+            Design confidently
+          </h2>
+          <p class="text-xl text-slate-500">
+            UsabilityHub is a remote user research platform that takes the
+            guesswork out of design decisions by validating them with real
+            users.
+          </p>
+          <button
+            class="appearance-none bg-blue-500 text-white font-semibold border border-slate-300 rounded px-6 py-3 shadow hover:bg-blue-700"
+          >
+            Get started
+          </button>
+        </section>
+
+        <section>
+          <a href="#">
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b442d9ca51a7f5b711e6d60_home_mast.png"
+              alt="image"
+              class=""
+            />
+          </a>
+        </section>
+      </div>
+
+      <p class="text-center font-medium mt-12">
+        The world's best companies rely on UsabilityHub to make better design
+        decisions.
+      </p>
+
+      <div class="mb-16">
+        <ul class="flex flex-row flex-wrap justify-around gap-6 my-8">
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e726a0fccf7d78d81585_logo_amazon.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e8e6b998def81a004629_logo_google.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e8e6a0fccf20fed815e3_logo_taskrabbit.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e8e6ee75f135fc390ab6_logo_airtable.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e726c3102cf1ebf0c2c0_logo_box.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5f7fda34692422757a1b3768_godaddy.svg"
+              alt="image"
+              class="h-8"
+            />
+          </li>
+
+          <li>
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46e726a09814d84e5a21c2_logo_asana.png"
+              alt="image"
+              class="h-10"
+            />
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-8 flex flex-col gap-8">
+        <p class="text-2xl font-semibold text-slate-700 text-center">
+          Your user research Swiss Army knife
+        </p>
+
+        <button
+          class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto -mt-4 hover:border-blue-500 hover:text-blue-500"
+        >
+          See all features
+        </button>
+
+        <div
+          class="my-4 grid grid-flow-row grid-cols-1 justify-around gap-20 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/6355e6254d0d41e7d3aa16c0_card-sorting.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">Card Sorting</h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Discover how people group and label information
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/619f1c2ab5d65ddab8ae52db_prototype-testing.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">Prototype Tests</h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Discover how people group and label information
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/6101f41d07abfab7b5f57c84/6101f41d07abfa81f8f57cde_click-analysis.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">
+              First click tests
+            </h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Discover how people group and label information
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/6101f41d07abfab7b5f57c84/6101f41d07abfa567af57cc3_surveys.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">Design sureys</h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Get feedback on images, videos or audio files.
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/6101f41d07abfab7b5f57c84/6101f41d07abfa0fd5f57cd6_Head%20icon.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">
+              Preference tests
+            </h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Find out which designs users prefer and why.
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+
+          <div class="flex flex-col gap-4 items-center">
+            <img
+              src="https://assets-global.website-files.com/6101f41d07abfab7b5f57c84/6101f41d07abfaefeaf57cd8_five-second-test.svg"
+              alt="image"
+              class="h-12"
+            />
+
+            <h3 class="text-2xl text-slate-700 font-medium">
+              Five second tests
+            </h3>
+
+            <p class="text-xl text-center text-slate-500">
+              Test comprehensibility by measuring first impressions.
+            </p>
+
+            <button
+              class="appearance-none bg-white text-slate-800 font-semibold border border-slate-300 rounded px-8 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+            >
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <ul class="my-24">
+        <li>
+          <div
+            class="flex flex-col justify-between items-center my-20 gap-16 lg:flex-row lg:text-left"
+          >
+            <section>
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a05b1ce09edcc052e_home_designer-p-1080.png"
+                alt="image"
+                class=""
+              />
+            </section>
+
+            <section class="flex flex-col justify-start gap-6 items-start">
+              <p class="text-xl text-slate-700 font-semibold -my-4">
+                Effortless validation for
+              </p>
+
+              <h2 class="text-4xl text-slate-700 font-semibold">
+                Design professionals
+              </h2>
+
+              <p class="text-xl text-slate-500">
+                Test interfaces, interaction flows, iconography and more, to
+                help you create intuitive and delightful experiences for your
+                users.
+              </p>
+
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b48038d33b04e2c4746784b_logo_chartmogul.png"
+                alt="ChartMogul"
+                class="h-8"
+              />
+
+              <p class="text-xl text-slate-600 font-semibold">
+                The navigation test is god's gift to UI designers, it probably
+                has the best power-to-simplicity ratio of any software, ever.
+              </p>
+
+              <div class="flex flex-row gap-4 items-center">
+                <img
+                  src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b47fffe8d2f84bbe2f2d3c9_avatar_nick.png"
+                  alt="image"
+                  class="h-12"
+                />
+
+                <div class="flex flex-col justify-between">
+                  <h4 class="text-slate-600 font-semibold">Nick Franklin</h4>
+                  <p class="text-sm text-slate-500 font-medium">
+                    Chief Executive Officer
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </li>
+
+        <li>
+          <div
+            class="flex flex-col justify-between items-center my-20 gap-16 lg:flex-row-reverse lg:text-left"
+          >
+            <section>
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a6c5dba54a973c215_home_marketer-p-800.png"
+                alt="image"
+                class=""
+              />
+            </section>
+
+            <section class="flex flex-col justify-start gap-6 items-start">
+              <p class="text-xl text-slate-700 font-semibold -my-4">
+                Optimization for
+              </p>
+
+              <h2 class="text-4xl text-slate-700 font-semibold">Markets</h2>
+
+              <p class="text-xl text-slate-500">
+                Fine-tune landing pages, messaging, and creative, helping you
+                optimise conversion rates on marketing campaigns and product
+                launches.
+              </p>
+
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46eb27731aa104bfa613ab_logo_philips.png"
+                alt="ChartMogul"
+                class="h-8"
+              />
+
+              <p class="text-xl text-slate-600 font-semibold">
+                We use UsabilityHub tests to help us make decisions for various
+                projects. From web and mobile design to marketing activities.
+              </p>
+
+              <div class="flex flex-row gap-4 items-center">
+                <img
+                  src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b47fffec57559f4aad75acd_avatar_rick.png"
+                  alt="image"
+                  class="h-12"
+                />
+
+                <div class="flex flex-col justify-between">
+                  <h4 class="text-slate-600 font-semibold">Rick van de Ven</h4>
+                  <p class="text-sm text-slate-500 font-medium">
+                    Digital Marketing Analyst
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </li>
+
+        <li>
+          <div
+            class="flex flex-col justify-between items-center my-20 gap-16 lg:flex-row lg:text-left"
+          >
+            <section>
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b44330a049e86cae8ae66e5_home_manager-p-800.png"
+                alt="image"
+                class=""
+              />
+            </section>
+
+            <section class="flex flex-col justify-start gap-6 items-start">
+              <p class="text-xl text-slate-700 font-semibold -my-4">
+                Easier decision making for
+              </p>
+
+              <h2 class="text-4xl text-slate-700 font-semibold">
+                Product managers
+              </h2>
+
+              <p class="text-xl text-slate-500">
+                Ensure you’re delivering the right features to the right
+                customers by validating product concepts with your target
+                audience.
+              </p>
+
+              <img
+                src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b46f218731aa104eea61880_logo_economist.png"
+                alt="ChartMogul"
+                class="h-8"
+              />
+
+              <p class="text-xl text-slate-600 font-semibold">
+                Adopting UsabilityHub got us into the habit of asking our users
+                questions before locking in decisions.
+              </p>
+
+              <div class="flex flex-row gap-4 items-center">
+                <img
+                  src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b47ffff33b04ea98d467523_avatar_ron.png"
+                  alt="image"
+                  class="h-12"
+                />
+
+                <div class="flex flex-col justify-between">
+                  <h4 class="text-slate-600 font-semibold">Ron Diorio</h4>
+                  <p class="text-sm text-slate-500 font-medium">
+                    VP Innovation & New Products
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </li>
+      </ul>
+
+      <div class="flex flex-col gap-6">
+        <h2 class="text-4xl text-slate-700 font-semibold text-center">
+          One platform, endless possibilities
+        </h2>
+
+        <button
+          class="appearance-none bg-white text-slate-800 font-semibold text-center border border-slate-300 rounded px-6 py-3 mx-auto hover:border-blue-500 hover:text-blue-500"
+        >
+          See more examples
+        </button>
+
+        <ul class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <li>
+            <a href="#"
+              ><div
+                class="flex align-bottom items-end w-auto h-40 p-4 bg-[url('https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48591a238eb6563b4d3581_cover_tasks.jpg')] bg-cover bg-no-repeat shadow-inner hover:shadow-lg"
+              >
+                <!-- <div class="w-auto h-40 p-4 bg-blue-400 shadow-md shadow-black  font-bold"> -->
+                <p class="text-white font-bold text-shadow">
+                  Can users complete a task in my software interface?
+                </p>
+              </div></a
+            >
+          </li>
+
+          <li>
+            <a href="#">
+              <div
+                class="flex align-bottom items-end w-auto h-40 p-4 bg-[url('https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48581f238eb652d84d356f_cover_navigate.jpg')] bg-cover bg-no-repeat shadow-inner hover:shadow-lg"
+              >
+                <!-- <div class="w-auto h-40 p-4 bg-blue-400 shadow-md shadow-black  font-bold"> -->
+                <p class="text-white font-bold text-shadow">
+                  Can users find important pages on my website?
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div
+                class="flex align-bottom items-end w-auto h-40 p-4 bg-[url('https://assets-global.website-files.com/5b29b478056829d173e3e394/5b485751238eb68a594d3555_cover_audience.jpg')] bg-cover bg-no-repeat shadow-inner hover:shadow-lg"
+              >
+                <!-- <div class="w-auto h-40 p-4 bg-blue-400 shadow-md shadow-black  font-bold"> -->
+                <p class="text-white font-bold text-shadow">
+                  Is my website's intended audience clear?
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <div
+                class="flex align-bottom items-end w-auto h-40 p-4 bg-[url('https://assets-global.website-files.com/5b29b478056829d173e3e394/5b48587a238eb690dd4d3577_cover_about.jpg')] bg-cover bg-no-repeat shadow-inner hover:shadow-lg"
+              >
+                <!-- <div class="w-auto h-40 p-4 bg-blue-400 shadow-md shadow-black  font-bold"> -->
+                <p class="text-white font-bold text-shadow">
+                  Do visitors understand what a page is about?
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <div
+      class="flex flex-col px-[8%] py-16 bg-[#183b54] justify-between items-center my-14 gap-24 lg:flex-row-reverse lg:text-left"
+    >
+      <section>
+        <img
+          src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5afa8ec41bc1893d6b1b14d4_homepage_panel.png"
+          alt="image"
+          class=""
+        />
+      </section>
+
+      <section class="flex flex-col justify-center gap-6 lg:items-start">
+        
+        <h2 class="text-4xl text-slate-100 font-semibold -my-4 text-center lg:text-left">No participants?</h2>
+        <h2 class="text-4xl text-slate-100 font-semibold text-center lg:text-left">No problem</h2>
+
+        <p class="text-xl text-slate-400 mb-2 text-center lg:text-left">
+          Our integrated panel allows you to quickly and affordably recruit research participants that precisely match your target audience.
+        </p>
+        
+
+        <h4 class="text-xl text-slate-100 font-semibold text-center lg:text-left">Our panel includes:</h4>
+
+        <ul class="flex justify-start gap-10">
+          <li>
+            <ul class="text-slate-400 list-disc list-inside">
+              <li class="my-1">450k+ panel participants</li>
+              <li class="my-1">35+ demographic options</li>
+              <li class="my-1">Free demographic targeting</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="text-slate-400 list-disc list-inside">
+              <li class="my-1">Coverage in 100+ countries</li>
+              <li class="my-1">Average 5hr turn around time</li>
+              <li class="my-1">Response quality guarantee</li>
+            </ul>
+          </li>
+        </ul>
+        
+        <button
+          class="appearance-none bg-blue-500 text-white font-semibold border border-slate-700 rounded px-6 py-3 mt-4 shadow hover:bg-blue-700"
+        >
+          Learn More
+        </button>
+
+      </section>
+    </div>
+
+    <div class="flex flex-col my-14 align-middle items-center gap-6">
+      <p class="text-4xl text-slate-700 font-semibold">Start testing today</p>
+      <p class="text-xl text-slate-500">
+        Take the guesswork out of design decisions
+      </p>
+      <button
+          class="appearance-none bg-blue-500 text-white font-semibold border border-slate-300 rounded px-6 py-3 shadow hover:bg-blue-700"
+        >
+          Get Started
+        </button>
+
+    </div>
+
+    <footer>
+      <ul class="px-32 pt-16 pb-10 grid grid-cols-1 bg-[#ebf2fa] md:grid-cols-2 lg:grid-cols-4">
+        <li>
+          <ul>
+            <li>
+              <a href="#"><img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af980b24d23b2a395c4cfe2_logo.svg" alt="logo"></a>
+            </li>
+            <li><br></li>
+          </ul>
+        </li>
+
+        <li>
+            <ul>
+              <li class="text-lg text-slate-700 font-semibold mb-4">Product</li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Overview</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Pricing</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >UsabilityHub panel</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Customers</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Status page</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Sign Up</a></li>
+              <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#" >Book a demo</a></li>
+              <li><br></li>
+            </ul>
+        </li>
+
+        <li>
+          <ul>
+            <li class="text-lg text-slate-700 font-semibold mb-4">Methodologies</li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Card sorting</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Prototype testing</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">First click tests</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Preference tests</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Five second tests</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Design surveys</a></li>
+            <li><br></li>
+          </ul>
+        </li>
+
+        <li>
+          <ul>
+            <li class="text-lg text-slate-700 font-semibold mb-4">Resources</li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Blog</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Examples</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Testing guides</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Help center</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Contact</a></li>
+            <li class="py-1 text-slate-500 hover:text-blue-500"><a href="#">Careers</a></li>
+            <li><br></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="px-32 py-4 bg-[#b9cde4] flex flex-row flex-wrap gap-y-4 align-middle items-center justify-around">
+        <ul class="flex justify-around text-center gap-6">
+          <li><a href="#" class="text-slate-800 hover:text-blue-500">Privacy Policy</a></li>
+          <li><a href="#" class="text-slate-800 hover:text-blue-500">Terms & conditions</a></li>
+          <li><a href="#" class="text-slate-800 hover:text-blue-500">Security information</a></li>
+        </ul>
+
+        <ul class="flex justify-around align-middle items-center gap-4">
+          <li>
+            <a href="#">
+              <img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/63979afe32fc4d6a857434bf_facebook-icon.png" alt="facebook" class="h-6">
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/63979afeba442d9638ab4102_twitter-icon.png" alt="twitter" class="h-6">
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/63979afe32fc4d718c7434be_linkediin-icon.png" alt="linkedIn" class="h-6">
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/63979afee8b0ade44fa08147_youtube-icon.png" alt="youtube" class="h-6">
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </footer>
+
+
+    <a href="#">
+      <div class="fixed flex items-center justify-center h-14 w-14 bottom-6 right-6 mx-auto my-auto rounded-full bg-blue-400 shadow-slate-600 shadow-md">
+        <img src="help.svg" alt="help" class="w-10">
+      </div>
+    </a>
+
+  </body>
+</html>
