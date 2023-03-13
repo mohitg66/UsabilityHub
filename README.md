@@ -1,5 +1,4 @@
 # UsabilityHub
-
 A clone of the landing page of the website [UsabilityHub.com](https://usabilityhub.com), developed using **HTML**, **CSS**, **JavaScript** and **TailwindCSS**
 
 
@@ -10,6 +9,7 @@ A clone of the landing page of the website [UsabilityHub.com](https://usabilityh
 
 
 ## Instructions
+
 ```bash
 # clone this repository
 git clone https://github.com/mohitg66/UsabilityHub.git
@@ -22,6 +22,7 @@ npx tailwindcss init
 # start the Tailwind CLI build process
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
+
 
 ## Demo
 [Live Preview](https://mohitg66.github.io/UsabilityHub/)
