@@ -4,12 +4,7 @@ A clone of the landing page of the website [UsabilityHub.com](https://usabilityh
 
 ## Tech Stack
 
-<img height="60px" src="https://cdn.svgporn.com/logos/html-5.svg">
-<img height="60px" src="https://cdn.svgporn.com/logos/css-3.svg">
-<img height="44px" src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg">
-<img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg">
-<img height="50px" src="https://cdn.svgporn.com/logos/git-icon.svg">
-<img height="50px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
+<img height="60px" src="https://cdn.svgporn.com/logos/html-5.svg"> <img height="60px" src="https://cdn.svgporn.com/logos/css-3.svg"> <img height="44px" src="https://cdn.svgporn.com/logos/tailwindcss-icon.svg"> <img height="50px" src="https://cdn.svgporn.com/logos/javascript.svg"> <img height="50px" src="https://cdn.svgporn.com/logos/git-icon.svg"> <img height="50px" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
 
 
 
