@@ -1,6 +1,8 @@
 # UsabilityHub
 A clone of the landing page of the website [UsabilityHub.com](https://usabilityhub.com), developed using **HTML**, **CSS**, **JavaScript** and **TailwindCSS**
 
+<img src="img/homepage.png">
+
 
 ## Tech Stack
 
